@@ -1,13 +1,18 @@
+import React from 'react';
 import './App.css';
+import Sidebar from './components/Sidebar';
+import MessagesList from './components/MessagesList';
+import AddMessage from './components/AddMessage';
+
 
 function App() {
   return (
     <div className="chat-container">
-      <aside className="sidebar">Users</aside>
+      <Sidebar />
       <main className="chat-main">
-        <div className="messages">Hello!</div>
+        <MessagesList />
         <div className="new-message">
-          <input type="text" placeholder="type a message..." />
+          <AddMessage />
           </div>
       </main>
     </div>
