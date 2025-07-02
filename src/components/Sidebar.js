@@ -1,13 +1,12 @@
 import React from 'react';
+import './Sidebar.css';
 
 function Sidebar() {
   return (
     <aside className="sidebar">
-      <ul>
         <li>Bob</li>
         <li>Alice</li>
         <li>Seth</li>
-      </ul>
     </aside>
   );
 }
