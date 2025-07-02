@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 .chat-container {
   background-color: #ffffff;
   display: grid;
@@ -14,9 +15,13 @@
   flex-direction: column;
   flex-grow: 1;
   overflow-y: auto;
+  overflow-x: hidden;
   height: 100%;
 }
 .messages{
   flex-grow: 1;
   overflow-y: auto;
+}
+* {
+  font-family: 'Press Start 2P', monospace;
 }
